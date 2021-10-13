@@ -32,7 +32,8 @@ def parsing_command(command):
     elif 'ошибка' in command:
         pass
     else:
-        say_message('Я тебя не понимаю', 'idont.mp3')
+        say_message('Скажи что-то другое', "zaebalo.mp3")
+        # zaebalo - необходимое название. С названием файла idont, idontunderstand и так далее вывдавало ошибку
 
 
 def say_message(message, file_voice_name):
@@ -44,8 +45,6 @@ def main():
     while True:
         command = listen_command()
         parsing_command(command)
-    # m = gTTS('Я тебя не понимаю', lang='ru')
-    # m.save("idont.mp3")
 
 
 if __name__ == '__main__':

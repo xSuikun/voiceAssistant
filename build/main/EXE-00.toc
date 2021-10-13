@@ -2,7 +2,7 @@
  True,
  False,
  True,
- 'd:\\voiceassistant\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ 'C:\\Users\\Ян\\PycharmProjects\\voiceAssistant\\icon.ico',
  None,
  False,
  False,
@@ -54,7 +54,7 @@
  [],
  False,
  False,
- 1634097368,
+ 1634098202,
  [('run.exe',
    'd:\\voiceassistant\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
